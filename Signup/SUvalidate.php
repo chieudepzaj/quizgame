@@ -10,7 +10,7 @@ function test_input($data) {
     return $data;
 }
 
-if ($_SERVER["REQUEST_METHOD"]== "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $adminname = test_input($_POST["adminname"]);
     $password = test_input($_POST["password"]);
